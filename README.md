@@ -1,3 +1,21 @@
+
+## 本软件包中
+
+直接 安装 
+```
+npm install hubot-script-shellcmd
+``` 
+在 mac 会产生错误
+
+需要
+
+/bash/handler
+
+``` bash
+//变成
+SELF_PATH="$(dirname $0)";
+```
+
 # cool
 
 cool is a chat bot built on the [Hubot][hubot] framework. It was
@@ -212,3 +230,5 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 You may want to get comfortable with `heroku logs` and `heroku restart` if
 you're having issues.
+
+
